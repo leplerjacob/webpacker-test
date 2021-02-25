@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MyFont';
+    src: 
+    url('./locanita.ttf') format('truetype'),
+    url('./locanita.otf') format('opentype');
+  }
+ 
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  font-size: 2rem;
+}
+
+
