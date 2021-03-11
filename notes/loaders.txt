@@ -1,0 +1,12 @@
+Using Loaders
+
+Loaders used so far: style-loader, css-loader
+
+
+1.) Loaders allow other file types to be included in the webpacker bundled file
+
+2.) Loaders will be processed in reversed order of mention in a webpacker file
+
+3.) Dealing with styling, style-loader must be first, followed by css-loader
+
+

@@ -1,0 +1,4 @@
+Aliasing
+
+1.) From webpack website. Learn about aliasing
+https://webpack.js.org/configuration/resolve/#resolvealias

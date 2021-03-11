@@ -1,0 +1,5 @@
+Plugins:
+
+Plugins used so far: css-minimizer-webpack-plugin
+
+1.) Plugins can be used to do things with your project files. One instance of this is the css-minimizer-webpack-plugin. This will minify the output of css styling. This will optimize css only in production mode.
