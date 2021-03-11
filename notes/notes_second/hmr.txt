@@ -1,0 +1,5 @@
+1.) Incorporate hot module replacement by removing the js file to be "hot-moduled" from the entry point of the webpack.config file. Then add an if/else to include js file upon module.hot == true. 
+
+2.) At this point, the hot module js file is not running yet. For example when adding print.js as a hot module and changing the code, because an event listener is attached to the function, it will still operate with the old function.
+
+3.) 
