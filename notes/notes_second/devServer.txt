@@ -1,0 +1,5 @@
+DevServer
+
+1.) devServer:  https://webpack.js.org/configuration/dev-server/
+
+2.) Allows for the use of HMR - Hot Module Replacement

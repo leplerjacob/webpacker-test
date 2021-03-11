@@ -1,0 +1,3 @@
+1.) Webpack natively gives a feature to watch changed code without having to recompile a bundle everytime. Add 'webpack --watch' to a script and run in console to enable.
+
+2.) webpack-dev-server can be used instead which is an npm node package that can be incorporated into the webpack.config file to also watch for changed code in realtime. No refresh of the browser is necessary.
