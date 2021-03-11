@@ -1,0 +1,8 @@
+Commands:
+
+1.) npx webpack --config webpack.config.js
+
+2.) 'npm run build'
+
+Instead of including a script tag to reference dependencies such as lodash, you can install locally, import into js file, and use the index.js as the entry point for webpacker. The webpacker fill fish out (the hound) and build a dependency graph which will be included in the output build for the browser to run.
+
