@@ -1,0 +1,2 @@
+1.) Mention of using hashes in filenames, and outputting multiple bundles
+2.) For each entry, there is a separate output when declaring out like "[name].bundle.js"

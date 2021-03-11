@@ -1,0 +1,11 @@
+1.) There is a manifest that webpack keeps to track how all the modules map to the ouput bundles.
+
+2.) Managing output: https://webpack.js.org/configuration/output/
+3.) Webpack-manifest-plugin: https://webpack.js.org/configuration/output/
+concept of manifest plugin: https://webpack.js.org/concepts/manifest/
+
+4). How webpack manages the interaction between all required modules? Answer: manifest data
+
+The manifest data is what is sent to the browser and is used at runtime by the browser to reconcile explicit modular statements within the code. This can be used to improve application performance using browser caching
+
+5.) Caching Guide: https://webpack.js.org/concepts/manifest/

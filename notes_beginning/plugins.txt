@@ -3,3 +3,10 @@ Plugins:
 Plugins used so far: css-minimizer-webpack-plugin
 
 1.) Plugins can be used to do things with your project files. One instance of this is the css-minimizer-webpack-plugin. This will minify the output of css styling. This will optimize css only in production mode.
+
+Another plugin: html-webpack-plugin
+
+1.) Generates and implifies HTML files that can change dynamically
+2.) This plugin will generate HTML file and replace old one.
+
+When placing plugins. you can add to after entry and before output in the webpack config file.
