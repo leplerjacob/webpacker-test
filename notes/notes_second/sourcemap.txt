@@ -1,4 +1,9 @@
 1.) Source maps allow for debugging of bundled/compressed code. This functionality comes natively with chrome and firefox. 
 
-2.) Add a special comment at bottom of optimized file
+
+Follow ALong
+2.) https://blog.teamtreehouse.com/introduction-source-maps
+
+3.) Add a special comment at bottom of optimized file
 eg. // #sourceMappingURL=/path/to/script.js.map
+

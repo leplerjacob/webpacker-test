@@ -6,7 +6,10 @@ Plugins used so far: css-minimizer-webpack-plugin
 
 Another plugin: html-webpack-plugin
 
-1.) Generates and implifies HTML files that can change dynamically
+1.) Generates and simplifies HTML files that can change dynamically
 2.) This plugin will generate HTML file and replace old one.
 
 When placing plugins. you can add to after entry and before output in the webpack config file.
+
+Webpack Bundle Analyzer
+1.) Visualize size of webpack output files

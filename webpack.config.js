@@ -13,13 +13,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Development'
+      title: 'Development',
+      favicon: path.resolve(__dirname,"favicon.ico")
     })
   ],
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
+    publicPath: '/',
   },
 };
 

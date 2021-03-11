@@ -1,0 +1,9 @@
+Middleware
+
+1.) webpack-dev-middleware is a wrapper that will emit files processed by webpack to a server
+
+2.) Though webpack-dev-server uses this internally already, a separate package such as middleware can allow for more customization.
+
+Adding publicPath
+
+3.) This ensures that files are served to the correct path
