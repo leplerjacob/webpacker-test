@@ -1,0 +1,4 @@
+dependOn
+
+1.) Use dependOn in the webpack config file to prevent duplicating bundles of modules imported in more than one file. This option allows to share the modules between chunks
+

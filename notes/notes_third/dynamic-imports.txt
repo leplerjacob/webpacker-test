@@ -1,0 +1,2 @@
+* Import () calls use promises internally
+

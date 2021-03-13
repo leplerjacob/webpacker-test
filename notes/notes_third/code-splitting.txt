@@ -1,0 +1,31 @@
+1.) Codesplitting can allow to split code into various bundles, which can then be loaded on demand or parallel
+
+Different ways to accomplish, one is explicitly declaring how to split
+
+1.) By declaring different entry points for separate files, more than one bundle can be created. However, duplication of dependencies will occur.
+
+Prevent duplication
+
+1.) use dependOn option for entry points. options can be declared by making the entry point key-value's value as a object {import:, dependOn:} and give it the option of dependOn:'shared'
+
+2.) If multiple entry points on single html file, use optimization option in webpack config file and set to 'single'
+
+Entry points
+
+1.) Instead of declaring more than one entry point, you can use a single entry that can then import more than one file
+
+    entry: {page: ['./analytics', './app'] }
+
+    instead of...
+
+    index: {
+      import: "./src/index.js",
+      dependOn: "shared",
+    },
+    another: {
+      import: "./src/another-module.js",
+      dependOn: "shared",
+    },
+
+2.) 
+

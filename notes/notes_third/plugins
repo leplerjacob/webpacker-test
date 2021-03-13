@@ -1,0 +1,10 @@
+Plugins
+
+splitChunksPlugin
+
+1.) Allows to extract common dependencies into an existing entry chunk or entirely new chunk
+
+
+mini-css-extract-plugin
+
+1.) Splits css out from main application
