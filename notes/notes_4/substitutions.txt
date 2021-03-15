@@ -1,0 +1,17 @@
+Substitutions
+
+1.) When code splitting is employed and multiple bundles are created, substitutions may be used to keep filenames unique in both a dynamic or static way
+
+2.) substitutions are bracketed strings within the declaration og entry point filenames
+
+    output: {
+        filename: '[name].bundle.js'
+        filename: '[id].bundle.js'
+        filename: '[name].[contenthash].bundle.js'
+    }
+
+3.) [contenthash] generates a unique hash for the filename
+
+Boilerplate
+
+1.) Webpack includes a boilerplate, which is responsible for the change in filename when incorporating contenthash in the output filename

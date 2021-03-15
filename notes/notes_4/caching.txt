@@ -1,0 +1,5 @@
+Caching
+
+1.) Caching allows sites to load faster with less unnecessary network traffic. Beware if new code is needed, caching can sometimes hinder that process.
+
+

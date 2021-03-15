@@ -1,0 +1,3 @@
+runtimeChunk
+
+1.) A property of the optimization feature. When set to single, create a single runtime bundle for all chunks
