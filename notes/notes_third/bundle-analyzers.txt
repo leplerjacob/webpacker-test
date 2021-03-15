@@ -1,0 +1,11 @@
+Community supported analyzers
+
+1.) webpack-chart
+
+2.) webpack-visualizer
+
+3.) webpack-bundle-analyzers
+
+4.) webpack bundle optimizer helper
+
+5.) bundle-stats

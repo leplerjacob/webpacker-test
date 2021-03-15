@@ -1,2 +1,10 @@
 * Import () calls use promises internally
 
+Dynamic Imports
+
+Remember: Code splitting is the concept of splitting the code into various bundles which can then be loaded on demand or in parellel. Important to consider technique used to avoid duplicate chunks of code in included in more than one bundle
+
+1.) Two techniques for dynamic code splitting: 'import()' and 'require.ensure'
+
+Using the import method, 'return import' for the module dependency. Since this returns a promise (note * above), .then can be appended to utilize any functions of imported module. Whatever is returned from import is a promise
+

@@ -1,0 +1,25 @@
+// Single target
+import(
+  /* webpackChunkName: "my-chunk-name" */
+  /* webpackMode: "lazy" */
+  /* webpackExports: ["default", "named"] */
+  'module'
+);
+
+// Multiple possible targets
+import(
+  /* webpackInclude: /\.json$/ */
+  /* webpackExclude: /\.noimport\.json$/ */
+  /* webpackChunkName: "my-chunk-name" */
+  /* webpackMode: "lazy" */
+  /* webpackPrefetch: true */
+  /* webpackPreload: true */
+  `./locale/${language}`
+);
+
+1.) /* webpackIgnore: true */ if set to true, opts out of code splitting
+
+2.) /* webpackChunkName: "<name>" */ will set the chunk to the name given
+
+3.) /* webpackMode */ can be set to lazy, lazy-once, eager, or weak
+
